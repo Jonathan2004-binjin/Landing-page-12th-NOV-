@@ -1,0 +1,59 @@
+<head> // ... existing meta tags ...
+
+<script src="https://cdn.tailwindcss.com"></script><script>tailwind.config= {
+    theme: {
+        extend: {
+            colors: {
+                brown: {
+                    50: '#EFEBE9',
+                        100: '#F5E6D3',
+                        200: '#D7CCC8',
+                        300: '#D7B69B',
+                        400: '#BCAAA4',
+                        500: '#A1887F',
+                        600: '#8D6E63',
+                        700: '#795548',
+                        800: '#5D4037',
+                        900: '#3E2723'
+                }
+
+                ,
+            }
+
+            ,
+            fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+                    serif: ['Playfair Display', 'serif'],
+            }
+
+            ,
+            spacing: {
+                '128': '32rem',
+            }
+
+            ,
+            height: {
+                '128': '32rem',
+            }
+
+            ,
+            minHeight: {
+                'screen-75': '75vh',
+                    'screen-50': '50vh',
+            }
+
+            ,
+            boxShadow: {
+                'soft': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+            }
+
+            ,
+        }
+
+        ,
+    }
+
+    ,
+}
+
+</script>< !-- Optional: Add Google Fonts --><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet"></head>
